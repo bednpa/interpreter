@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# Nazev programu: interpret.py                            #
+# Nazev programu: interpreter.py                          #
 # Autor: Pavel Bednar (xbedna73)                          #
 # Skola: FIT VUT v Brne                                   #
-# Zadani: Implementace 2. casti IPP projektu 2019/2020,   #
-#         zadani viz soubor README.md                     #
+# Zadani: Implementace 2. casti IPP projektu 2019/2020    #
 # Jazyk: Python 3.8.2                                     #
 # Datum vytvoreni: 2020-04-03                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -19,7 +18,7 @@ import xml.etree.ElementTree as x2t
 #
 def printHelp():
     print("+-------------------------------------------------------+")
-    print("| Napoveda k programu interpet.py                       |")
+    print("| Napoveda k programu interpreter.py                    |")
     print("+-------------------------------------------------------+")
     print("| Vstup: kod v IPPcode20 popripade vstup                |")
     print("| Vystup: interpretace programu v jazyce IPPcode20      |")
